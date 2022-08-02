@@ -2,7 +2,7 @@
 <q-page padding>
   <b style="font-size: 25px; color: #b46c53; font-family: Aileron;">Book Tracker</b>
   <div class="row q-mb-lg">
-    <q-input v-model="newTask" placeholder="Add a Book Rating!" class="col"
+    <q-input v-model="newTask" placeholder="Add a Book?" class="col"
       @keyup.enter="addTask"/>
     <q-btn
         color="secondary"
