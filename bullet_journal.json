@@ -1,0 +1,45 @@
+[
+{"type":"header","version":"5.0.4","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"bullet journal"},
+{"type":"table","name":"booktracker","database":"bullet journal","data":
+[
+{"BookID":"MazurBooks","Queue":"Who is Maude Dixon","BooksRead":"Verity","Rating":"5","Author":"Colleen Hoover","DashBoardID":"MazurZ"},
+{"BookID":"MazurBooks","Queue":"Layla","BooksRead":"The Midnight Library","Rating":"4","Author":"Matt Haig","DashBoardID":"MazurZ"},
+{"BookID":"MazurBooks","Queue":"Things we never got over","BooksRead":"The Perfect Child","Rating":"5","Author":"Lucinda Berry","DashBoardID":"MazurZ"}
+]
+}
+,{"type":"table","name":"braindump","database":"bullet journal","data":
+[
+{"BrainDumpID":"MazurBrain","StickyNote":"Maybe I should be nicer to Sarah and Nora..or maybe its the other way around","DashBoardID":"MazurZ"},
+{"BrainDumpID":"MazurBrain","StickyNote":"Gotta do laundry","DashBoardID":"MazurZ"},
+{"BrainDumpID":"MazurBrain","StickyNote":"Whys it so hot outside","DashBoardID":"MazurZ"},
+{"BrainDumpID":"MazurBrain","StickyNote":"I wonder what Virg is doing","DashBoardID":"MazurZ"}
+]
+}
+,{"type":"table","name":"budget","database":"bullet journal","data":
+[
+{"BudgetID":"MazurBudget","Budget":"1000","Bills":"250","Fun":"500","Date":"2022-08-01","DashBoardID":"MazurZ"},
+{"BudgetID":"MazurBudget","Budget":"1000","Bills":"200","Fun":"700","Date":"2022-09-01","DashBoardID":"MazurZ"}
+]
+}
+,{"type":"table","name":"calendar","database":"bullet journal","data":
+[
+{"CalendarID":"MazurCal","MonthlyGoals":"Get over end of semester slump","ToDo":"Finish all classwork","Holidays":"Last Day of Semester","Date":"2022-08-17","DashBoardID":"MazurZ"},
+{"CalendarID":"MazurCal","MonthlyGoals":"Prep for co-op","ToDo":"Look into frontend code","Holidays":"Labor Day","Date":"2022-09-05","DashBoardID":"MazurZ"},
+{"CalendarID":"MazurCal","MonthlyGoals":"Not be too nervous","ToDo":"Complete first day of work","Holidays":"NULL","Date":"2022-09-06","DashBoardID":"MazurZ"}
+]
+}
+,{"type":"table","name":"dashboard","database":"bullet journal","data":
+[
+{"DashBoardID":"MazurZ","Name":"Zoe"}
+]
+}
+,{"type":"table","name":"health","database":"bullet journal","data":
+[
+{"HealthID":"MazurHealth","Water":"43 oz","Fitness":"Hot Girl Walk","Mood":"Good Day","Recipes":"Sausage Bowl","Date":"2022-07-31","DashBoardID":"MazurZ"},
+{"HealthID":"MazurHealth","Water":"64 oz","Fitness":"Hot Girl Walk","Mood":"Mediocre","Recipes":"Salmon and Rice","Date":"2022-08-01","DashBoardID":"MazurZ"},
+{"HealthID":"MazurHealth","Water":"96 oz","Fitness":"15 Minute Abs","Mood":"Better than normal","Recipes":"Caesar Salad","Date":"2022-08-02","DashBoardID":"MazurZ"},
+{"HealthID":"MazurHealth","Water":"32 oz","Fitness":"Hot Girl Walk","Mood":"Pretty Good","Recipes":"Chocolate Chip Cookies","Date":"2022-08-03","DashBoardID":"MazurZ"}
+]
+}
+]
