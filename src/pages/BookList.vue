@@ -2,17 +2,9 @@
 <q-page padding>
   <b style="font-size: 25px; color: #b46c53; font-family: Aileron;">Book Tracker</b>
   <div class="row q-mb-lg">
-    <q-input v-model="newTask" placeholder="Add a Book?" class="col"
-      @keyup.enter="addTask"/>
-    <q-btn
-        color="secondary"
-        size="sm"
-        icon="add"
-        @click.native="addTask"
-      />
     <q-space></q-space>
     <q-table
-      style="width: 100%"
+      style="width: 100%; font-family: Aileron;"
       title="Books Read"
       :rows="rows"
       :columns="cols"
@@ -22,7 +14,7 @@
 
   <div class="row q-mb-lg">
     <q-table
-      style="width: 100%"
+      style="width: 100%;font-family: Aileron;"
       title="Book Queue"
       :rows="rows2"
       :columns="cols2"
@@ -63,7 +55,7 @@ const rows = [
     rating: '4',
     genre: 'fantasy, fiction, science fiction'
   },
-    {
+  {
     name: 'The Perfect Child',
     author: 'Lucinda Barry',
     rating: '5',

@@ -14,8 +14,8 @@
 
     <div class="row q-mb-lg">
       <q-list highlight class="col">
-        <q-list-header>ToDo</q-list-header>
-          <q-item v-for="(task,index) in todoList">
+        <q-list-header style="font-family: Aileron; font-size: 20px;">ToDo</q-list-header>
+          <q-item style="font-family: Aileron; font-size: 20px;" v-for="(task,index) in todoList">
             <q-item-label>{{task}}</q-item-label>
             <q-space></q-space>
             <q-item-section avatar>
@@ -27,8 +27,8 @@
 
     <div class="row">
       <q-list highlight class="col">
-        <q-list-header>Finished</q-list-header>
-          <q-item v-for="(task,index) in finishedList">
+        <q-list-header style="font-family: Aileron; font-size: 20px;">Finished</q-list-header>
+          <q-item style="font-family: Aileron; font-size: 20px;" v-for="(task,index) in finishedList">
             <q-item-label>{{task}}</q-item-label>
             <q-space></q-space>
             <q-item-section avatar>
@@ -48,7 +48,7 @@ export default defineComponent({
     return {
       newTask: ' ',
       todoList: ["Hot Girl Walk", "Eat, We are hungry"],
-      finishedList: ["Present slides", "Yum, Yum, Yum"]
+      finishedList: ["Present slides", "Nom, Nom, Nom"]
     }
   },
   methods: {
@@ -61,17 +61,7 @@ export default defineComponent({
       this.todoList.splice(index,1)
     },
     deleteTask(index){
-      this.$q.dialog({
-        title: "Confirm",
-        message: "Delete selected task?",
-        ok: "Yes",
-        cancel: "No"
-      }).then(() => {
-        this.finished.splice(index,1)
-        this.$q.notify("Deleted!")
-      }).catch(() => {
-
-      })
+      this.finishedList.splice(index,1)
     },
     setAnotherTitle () {
       this.title = 'Brain Dump' // will automatically trigger a Meta update due to the binding

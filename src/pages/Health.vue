@@ -3,7 +3,7 @@
   <b style="font-size: 25px; color: #b46c53; font-family: Aileron;">Health</b>
   <div class="row q-mb-lg">
     <q-table
-      style="width: 100%"
+      style="width: 100%; font-family: Aileron;"
       title="Health Tracking"
       :rows="rows"
       :columns="cols"
@@ -12,7 +12,7 @@
   </div>
   <div class="row q-mb-lg">
     <q-table
-      style="width: 100%"
+      style="width: 100%; font-family: Aileron;"
       title="Meal Planning"
       :rows="rows2"
       :columns="cols2"
